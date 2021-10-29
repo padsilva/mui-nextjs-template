@@ -5,6 +5,7 @@ import styled from '@emotion/styled'
 const StyledImage = styled(Image)`
   z-index: -1;
 `
+const a
 
 const BgImage = ({ src, alt }) => (
   <StyledImage
