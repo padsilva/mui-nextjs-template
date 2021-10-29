@@ -11,7 +11,7 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "next lint --ext .jsx,.js src --fix"
+      "yarn lint src --fix"
     ]
   },
   "dependencies": {
