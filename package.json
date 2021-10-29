@@ -6,15 +6,30 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*": [
+      "next lint --ext .jsx,.js src --fix"
+    ]
   },
   "dependencies": {
+    "@emotion/cache": "^11.5.0",
+    "@emotion/react": "^11.5.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/material": "^5.0.6",
     "next": "12.0.1",
+    "next-pwa": "^5.4.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-github-corner": "^2.5.0"
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "eslint-config-next": "12.0.1"
+    "eslint-config-next": "12.0.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6"
   }
 }
