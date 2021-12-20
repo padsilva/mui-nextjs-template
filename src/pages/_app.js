@@ -55,7 +55,7 @@ const App = ({
         <Component {...pageProps} />
       </Base>
       <GithubCorner
-        href="https://github.com/padsilva/nextjs-boilerplate"
+        href="https://github.com/padsilva/mui-nextjs-template/"
         bannerColor="#fff"
         octoColor="#000"
         target="_blank"
